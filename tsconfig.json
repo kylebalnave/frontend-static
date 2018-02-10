@@ -1,0 +1,26 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "importHelpers": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015"
+        ]
+    },
+    "typeRoots": [
+        "node_modules/@types"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.d.ts"
+    ]
+}
